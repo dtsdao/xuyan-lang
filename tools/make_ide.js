@@ -20,7 +20,7 @@ var lib = utils.loadlib();
 
 function main() {
   function hideImportedModules(source) {
-    const markerRegex = /\/\*___wenyan_module_([\s\S]+?)_(start|end)___\*\//g;
+    const markerRegex = /\/\*___xuyan_module_([\s\S]+?)_(start|end)___\*\//g;
     const matches = [];
 
     var match;
@@ -40,7 +40,7 @@ function main() {
 
       source = source.replace(
         new RegExp(
-          `\\/\\*___wenyan_module_${match[1]}_start___\\*\\/[\\s\\S]*\\/\\*___wenyan_module_${match[1]}_end___\\*\\/`
+          `\\/\\*___xuyan_module_${match[1]}_start___\\*\\/[\\s\\S]*\\/\\*___xuyan_module_${match[1]}_end___\\*\\/`
         ),
         `/* module ${match[1]} is hidden */\n`
       );
@@ -59,7 +59,7 @@ function main() {
   };
 
   var makeTitle = example => {
-    return (examplesAlias[example] || example) + " - wenyan-lang Online IDE";
+    return (examplesAlias[example] || example) + " - xuyan-lang Online IDE";
   };
 
   var sel = document.getElementById("pick-example");
@@ -175,7 +175,7 @@ function main() {
 var html = `<!--GENERATED FILE, DO NOT READ-->
 <head>
 <meta charset="UTF-8">
-<title>wenyan-lang Online IDE</title>
+<title>xuyan-lang Online IDE</title>
 <style>
 [contenteditable="true"]:focus {outline: none;}
 pre{tab-size: 4;}
@@ -187,7 +187,7 @@ pre{tab-size: 4;}
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
 <script>${utils.catsrc()}</script>
 <body style="background:#272822;padding:20px;color:white;font-family:sans-serif;">
-  <h2><i>wenyan-lang</i></h2>
+  <h2><i>xuyan-lang</i></h2>
 <table><tr><td>
 <select id="pick-example"></select><button id="run">Run</button>
 

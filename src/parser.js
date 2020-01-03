@@ -623,11 +623,11 @@ function tokens2asc(
 }
 
 function jsWrapModule(name, src) {
-  return `/*___wenyan_module_${name}_start___*/var ${name} = new function(){ ${src} };/*___wenyan_module_${name}_end___*/`;
+  return `/*___xuyan_module_${name}_start___*/var ${name} = new function(){ ${src} };/*___xuyan_module_${name}_end___*/`;
 }
 function pyWrapModule(name, src) {
-  // return `#/*___wenyan_module_${name}_start___*/\nclass ${name}:\n${src.split("\n").map(x=>"\t"+x).join("\n")}\n#/*___wenyan_module_${name}_end___*/\n`;
-  return `#/*___wenyan_module_${name}_start___*/\n${src}\n#/*___wenyan_module_${name}_end___*/\n`;
+  // return `#/*___xuyan_module_${name}_start___*/\nclass ${name}:\n${src.split("\n").map(x=>"\t"+x).join("\n")}\n#/*___xuyan_module_${name}_end___*/\n`;
+  return `#/*___xuyan_module_${name}_start___*/\n${src}\n#/*___xuyan_module_${name}_end___*/\n`;
 }
 
 function defaultReader(x) {

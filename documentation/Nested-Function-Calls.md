@@ -22,7 +22,7 @@ More complex example for the courageous:
 
 ## How it works
 
-The original syntax of wenyan already employs a stack-like behavior. You can use `其` to refer to the previous unnamed variable, you can use `書之` to print all the unnamed variables, use `名之曰` to name them etc. Therefore, it is natural to use the same system for function calls.
+The original syntax of xuyan already employs a stack-like behavior. You can use `其` to refer to the previous unnamed variable, you can use `書之` to print all the unnamed variables, use `名之曰` to name them etc. Therefore, it is natural to use the same system for function calls.
 
 Now I'll refer to the "list of unnamed variables" as the "stack" for convenience.
 
@@ -47,7 +47,7 @@ A thank you to @Lotayou and everyone for the discussion in #285 and #301. More f
 
 ## Automatically curried functions
 
-functions in wenyan are now automatically curried, that is, partially applied to return a new function.
+functions in xuyan are now automatically curried, that is, partially applied to return a new function.
 
 ```
 吾有一術。名之曰「丁」。欲行是術。必先得三數。曰「寅」曰「卯」曰「辰」乃行是術曰。

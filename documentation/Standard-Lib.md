@@ -15,12 +15,12 @@ Last updated: Mon, 30 Dec 2019 15:32:37 GMT
 
 ## [易經](../lib/易經.wy)
 
-| Wenyan | Javascript Equivalent |
+| xuyan | Javascript Equivalent |
 |---|---|
 
 ## [算經](../lib/算經.wy)
 
-| Wenyan | Javascript Equivalent |
+| xuyan | Javascript Equivalent |
 |---|---|
 | [`圓周率`](../lib/算經.wy#L166) | `Math.PI` |
 | [`倍圓周率`](../lib/算經.wy#L169) | `Math.PI * 2` |
@@ -56,13 +56,13 @@ Last updated: Mon, 30 Dec 2019 15:32:37 GMT
 
 ## [籌經](../lib/籌經.wy)
 
-| Wenyan | Javascript Equivalent |
+| xuyan | Javascript Equivalent |
 |---|---|
 | [`求和`](../lib/籌經.wy#L1) | `reduce((a,b)=>a+b)` |
 
 ## [位經](../lib/js/位經.wy)
 
-| Wenyan | Javascript Equivalent |
+| xuyan | Javascript Equivalent |
 |---|---|
 
 

@@ -7,7 +7,7 @@ const Default = () => {
     output: {
       globalObject: '(typeof self !== "undefined" ? self : this)', // make it works for both node and browser
       libraryTarget: 'umd2',
-      library: ["Wenyan", "[name]"],
+      library: ["xuyan", "[name]"],
       path: path.resolve(__dirname, 'dist'),
       filename: '[name]/index.min.js',
     },
@@ -50,7 +50,7 @@ const Core = {
   }
 }
 
-Core.output.library = 'Wenyan'
+Core.output.library = 'xuyan'
 
 const Utils = {
   ...Default(),

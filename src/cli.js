@@ -10,7 +10,7 @@ var Logo = ` ,_ ,_\n \\/ ==\n /\\ []\n`;
 const program = new commander.Command();
 program
   .version(version, "-v, --version", "Output the version")
-  .name("wenyan")
+  .name("xuyan")
   .arguments("[files...]")
   .action(files => {
     if (!files) {
@@ -51,7 +51,7 @@ if (emptyCall || showHelp) {
     if (!help) return "";
     let text = "\n";
     text += Logo;
-    text += `\nWENYAN LANG 文言 Compiler v${version}\n\n`;
+    text += `\nxuyan LANG 徐延 Compiler v${version}\n\n`;
     text += help;
     text += "\n";
     return text;

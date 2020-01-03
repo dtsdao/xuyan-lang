@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 var execSync = require("child_process").execSync;
 
-const catsrcIgnore = "/* wenyan-catsrc-ignore */";
+const catsrcIgnore = "/* xuyan-catsrc-ignore */";
 
 function remotelib(urls) {
   var src = urls

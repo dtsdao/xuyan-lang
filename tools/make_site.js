@@ -274,17 +274,17 @@ h2{
 <script>${utils.catsrc()}</script>
 <div id="bg"><div id="bg-inner">${load_svg("../renders/turing.svg")}</div></div>
 
-<div id="title-box"><div id="title1">文言 / wenyan&#8209;lang</div><div id="title2">編程語言 Programming Language for the ancient Chinese</div></div>
+<div id="title-box"><div id="title1">徐延 / xuyan&#8209;lang</div><div id="title2">編程語言 Programming Language for the ancient Chinese</div></div>
 
 
 <div id="content-box">
 <div id="content">
 
-<i>文言</i>, or <i>wenyan</i>, is an esoteric programming language that closely follows the grammar and tone of classical Chinese literature. Moreover, the alphabet of <i>wenyan</i> contains only traditional Chinese characters and <code>「」</code> quotes, so it is guaranteed to be readable by ancient Chinese people. You too can try it out on the <a href="./ide.html">online editor</a>, <a href="https://github.com/LingDong-/wenyan-lang#installation">download a compiler</a>, or view the <a href="https://github.com/LingDong-/wenyan-lang">source code</a>.
+<i>徐延</i>, or <i>xuyan</i>, is an esoteric programming language that closely follows the grammar and tone of classical Chinese literature. Moreover, the alphabet of <i>xuyan</i> contains only traditional Chinese characters and <code>「」</code> quotes, so it is guaranteed to be readable by ancient Chinese people. You too can try it out on the <a href="./ide.html">online editor</a>, <a href="https://github.com/dtsdao/xuyan-lang#installation">download a compiler</a>, or view the <a href="https://github.com/dtsdao/xuyan-lang">source code</a>.
 
 <h1>Syntax</h1>
 
-Syntax of <i>wenyan</i> is just like that of its namesake, classical Chinese:
+Syntax of <i>xuyan</i> is just like that of its namesake, classical Chinese:
 
 <h2>天地，好在否！/ HELLO WORLD <span class="play-btn">▶&#xFE0E;</span></h2>
 
@@ -305,7 +305,7 @@ You can find many more examples such as a Universal Turing Machine, a Mandelbrot
 
 <h1>Compilation</h1>
 
-<i>wenyan</i> currently compiles to JavaScript, Python, or Ruby, and will support more languages (e.g. C) in the future. The Hello World example (or whatever you edited it to be) above translates to:
+<i>xuyan</i> currently compiles to JavaScript, Python, or Ruby, and will support more languages (e.g. C) in the future. The Hello World example (or whatever you edited it to be) above translates to:
 
 <div class="compile-out-box">
   <div class='language-item'>
@@ -321,9 +321,9 @@ You can find many more examples such as a Universal Turing Machine, a Mandelbrot
 
 <h1>Get</h1>
 
-<span class="big-btn" onclick="window.location.href='https://github.com/LingDong-/wenyan-lang'">SOURCE CODE (GITHUB)</span>
+<span class="big-btn" onclick="window.location.href='https://github.com/dtsdao/xuyan-lang'">SOURCE CODE (GITHUB)</span>
 <span class="big-btn" onclick="window.location.href='./ide.html'">ONLINE EDITOR</span>
-<span class="big-btn" onclick="window.location.href='https://github.com/LingDong-/wenyan-lang#syntax-cheatsheet'">REFERENCE</span>
+<span class="big-btn" onclick="window.location.href='https://github.com/dtsdao/xuyan-lang#syntax-cheatsheet'">REFERENCE</span>
 
 
 

@@ -14,15 +14,15 @@ We provide a compiler runs both in Node.js and modern browsers.
 You can install the dependence by following command.
 
 ```bash
-npm install @wenyanlang/core
+npm install @xuyanlang/core
 ```
 
 ```js
-const Wenyan = require('@wenyanlang/core')
+const xuyan = require('@xuyanlang/core')
 // or
-const { compile } = require('@wenyanlang/core')
+const { compile } = require('@xuyanlang/core')
 // or
-import { compile } from '@wenyanlang/core'
+import { compile } from '@xuyanlang/core'
 ```
 
 ### Browsers
@@ -30,13 +30,13 @@ import { compile } from '@wenyanlang/core'
 You can add the following line to the head of your html body.
 
 ```html
-<script src='https://unpkg.com/@wenyanlang/core/index.min.js'></script>
+<script src='https://unpkg.com/@xuyanlang/core/index.min.js'></script>
 ```
 
 ```html
 <script>
-// scripts will be exposed to window.Wenyan
-const compiled = Wenyan.compile('吾有一言。曰「「問天地好在。」」。書之。')
+// scripts will be exposed to window.xuyan
+const compiled = xuyan.compile('吾有一言。曰「「問天地好在。」」。書之。')
 </script>
 ```
 
@@ -58,7 +58,7 @@ function execute(source: string, options?: ExecuteOptions)
 
 | Name | Type | Note |
 | --- | --- | --- |
-| source | string | The Wenyan source code |
+| source | string | The xuyan source code |
 | options | object | [Execute Options](#Execute-Options) |
 
 ### Compile
@@ -73,7 +73,7 @@ function compile(source: string, options?: CompilerOptions)
 
 | Name | Type | Note |
 | --- | --- | --- |
-| source | string | The Wenyan source code |
+| source | string | The xuyan source code |
 | options | object | [Compiler Options](#Compiler-Options) |
 
 #### Compiler Options

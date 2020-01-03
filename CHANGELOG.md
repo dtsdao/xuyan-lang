@@ -12,14 +12,14 @@ compile(source, { lang: 'js', ... })
 
 The old API is still functional for temporary backward compatible, the support **will be REMOVED in the next minor update.**
 
-## Wenyan Snippets Site, #459
+## xuyan Snippets Site, #459
 
 Please do check it out. Any feedbacks are welcome!
 
 ![](https://user-images.githubusercontent.com/7929704/71650125-049f4800-2ce2-11ea-9f44-31c9b7e626d7.png)
 
 ## New Execute API
-Check out [API Document](https://github.com/LingDong-/wenyan-lang/blob/master/documentation/Compiler-API.md) and #473
+Check out [API Document](https://github.com/dtsdao/xuyan-lang/blob/master/documentation/Compiler-API.md) and #473
 
 
 ### Fixes
@@ -35,9 +35,9 @@ Check out [API Document](https://github.com/LingDong-/wenyan-lang/blob/master/do
 
 ## Macros (Experimental)
 
-As you might (not) have noticed, *wenyan-lang* strives to be more readable (for ancient Chinese people). **Macros** provide syntactic sugars to bring the 文采 of your code to the next level.
+As you might (not) have noticed, *xuyan-lang* strives to be more readable (for ancient Chinese people). **Macros** provide syntactic sugars to bring the 文采 of your code to the next level.
 
-E.g. Now you can patch wenyan-lang's notorius print function like so:
+E.g. Now you can patch xuyan-lang's notorius print function like so:
 
 ```
 或云「「書「甲」焉」」。
@@ -53,16 +53,16 @@ Since we're beating JavaScript to macros, here is a rough C equivalence:
 書("問天地好在")焉。
 ```
 
-See [**Full Documation**](https://github.com/LingDong-/wenyan-lang/blob/master/documentation/Macros.md), #440 for more details.
+See [**Full Documation**](https://github.com/dtsdao/xuyan-lang/blob/master/documentation/Macros.md), #440 for more details.
 
 ### Standard Library
 A new standard library `畫譜` that manipulates canvas on web pages. Check out the demo on Online IDE!
 
 ### Browser Runtime
-New package [`@wenyanlang/runtime`](https://github.com/LingDong-/wenyan-lang/blob/master/documentation/Runtime.md) allowing you to run Wenyan direct in `<script>` tag of html! (PR #433, thanks @antfu)
+New package [`@xuyanlang/runtime`](https://github.com/dtsdao/xuyan-lang/blob/master/documentation/Runtime.md) allowing you to run xuyan direct in `<script>` tag of html! (PR #433, thanks @antfu)
 
 ### Docs
-- [**Standard library document**](https://github.com/LingDong-/wenyan-lang/blob/master/documentation/Standard-Lib.md) added. (PR #432, thanks @antfu @statementreply)
+- [**Standard library document**](https://github.com/dtsdao/xuyan-lang/blob/master/documentation/Standard-Lib.md) added. (PR #432, thanks @antfu @statementreply)
 
 ### Examples
 - New example 劉徽割圓術 (PR #431, thanks @cuixiping)

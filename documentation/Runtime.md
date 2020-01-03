@@ -1,8 +1,8 @@
 [Back to README](../README.md)
 
-# Wenyan Browser Runtime
+# xuyan Browser Runtime
 
-You can now run Wenyan as normal Javscript script right in your html.
+You can now run xuyan as normal Javscript script right in your html.
 
 [**Check out the demo**](https://jsfiddle.net/antfu/u532ny49/)
 
@@ -11,17 +11,17 @@ You can now run Wenyan as normal Javscript script right in your html.
 Add following script in the `<head>` of your html file.
 
 ```html
-<script src='https://unpkg.com/@wenyanlang/runtime'></script>
+<script src='https://unpkg.com/@xuyanlang/runtime'></script>
 ```
 
 That's all, you are good to go!
 
 ## Usage
 
-To use wenyan in script, you **HAVE TO** specify `type="application/wenyan"` for the `<script>` tag. For example:
+To use xuyan in script, you **HAVE TO** specify `type="application/xuyan"` for the `<script>` tag. For example:
 
 ```html
-<script type="application/wenyan">
+<script type="application/xuyan">
 吾有一數。曰三。名之曰「甲」。
 為是「甲」遍。
   吾有一言。曰「「問天地好在。」」。書之。
@@ -31,10 +31,10 @@ To use wenyan in script, you **HAVE TO** specify `type="application/wenyan"` for
 
 ### Scoped script
 
-By default, all the variables in wenyan will exposed globally. For the previous example, `甲` is accessible by `window.甲`. If you do not want to messed up your globals, you can specify the `scoped` attr.
+By default, all the variables in xuyan will exposed globally. For the previous example, `甲` is accessible by `window.甲`. If you do not want to messed up your globals, you can specify the `scoped` attr.
 
 ```html
-<script type="application/wenyan" scoped>
+<script type="application/xuyan" scoped>
 吾有一數。曰三。名之曰「甲」。
 </script>
 ```
@@ -44,7 +44,7 @@ By default, all the variables in wenyan will exposed globally. For the previous 
 You can import remote scripts as you will do for Javascript.
 
 ```html
-<script type="application/wenyan" src="https://raw.githubusercontent.com/LingDong-/wenyan-lang/master/examples/fizzbuzz.wy"></script>
+<script type="application/xuyan" src="https://raw.githubusercontent.com/LingDong-/xuyan-lang/master/examples/fizzbuzz.wy"></script>
 ```
 
 ### Outputing Hanzi
@@ -52,18 +52,18 @@ You can import remote scripts as you will do for Javascript.
 By default, it will convert numbers and bools to hanzi. If you want to output raw numbers, you can specify `ouputHanzi="false"` in attr of script tag.
 
 ```html
-<script type="application/wenyan" ouputHanzi="false">
+<script type="application/xuyan" ouputHanzi="false">
 吾有一數。曰三。書之。
 </script>
 ```
 
 ### DOM Hacks
 
-There are some hacks you can do to access the DOM and browser APIs. This allows wenyan to do some realworld applications.
+There are some hacks you can do to access the DOM and browser APIs. This allows xuyan to do some realworld applications.
 
 ```html
-<script type="application/wenyan">
-施「((title)=>document.title=title)」於「「文言」」。
+<script type="application/xuyan">
+施「((title)=>document.title=title)」於「「徐延」」。
 施「((text)=>document.body.innerText=text)」於「「問天地好在。」」。
 </script>
 ```

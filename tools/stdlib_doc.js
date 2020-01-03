@@ -73,9 +73,9 @@ function readFile(filepath, relativePath) {
   let match;
 
   while ((match = DocRegex.exec(text))) {
-    const [, wenyan, js] = match;
+    const [, xuyan, js] = match;
     results.push({
-      wenyan,
+      xuyan,
       js,
       index: match.index,
       line: getLineNumberOfIndex(lines, match.index)
@@ -88,10 +88,10 @@ function readFile(filepath, relativePath) {
 
   let markdown = `## [${name}](${GithubPath})\n\n`;
 
-  markdown += `| Wenyan | Javascript Equivalent |\n|---|---|\n`;
+  markdown += `| xuyan | Javascript Equivalent |\n|---|---|\n`;
 
-  for (const { wenyan, js, line } of results) {
-    markdown += `| [\`${escapeMarkdown(wenyan)}\`](${GithubPath}#L${line +
+  for (const { xuyan, js, line } of results) {
+    markdown += `| [\`${escapeMarkdown(xuyan)}\`](${GithubPath}#L${line +
       1}) | \`${escapeMarkdown(js)}\` |\n`;
   }
 

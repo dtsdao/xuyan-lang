@@ -95,11 +95,11 @@ Please let me know if found any issue or have any suggestion!
 
 ## 2. Standard Library implementers needed!
 
-You think you can write wenyan? Please join us!
+You think you can write xuyan? Please join us!
 
 Currently in the `./lib` folder there are a couple of "stubs" such as `算經`(math) `位經`(bit ops) `易經`(random).
 
-They contain many functions to be implemented in wenyan. e.g. The `sin()` function currently contains this HACK:
+They contain many functions to be implemented in xuyan. e.g. The `sin()` function currently contains this HACK:
 
 ```
 今有一術。名之曰「正弦」。欲行是術。必先得一數。曰「甲」。乃行是術曰。

@@ -1,4 +1,4 @@
-/* wenyan-catsrc-ignore */
+/* xuyan-catsrc-ignore */
 
 (() => {
   const { execute } = require("./parser");
@@ -26,7 +26,7 @@
 
   document.addEventListener("DOMContentLoaded", async () => {
     const scripts = Array.from(document.getElementsByTagName("script")).filter(
-      s => s.type === "application/wenyan"
+      s => s.type === "application/xuyan"
     );
 
     for (const script of scripts) {

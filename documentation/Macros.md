@@ -2,9 +2,9 @@
 
 # Macros (Experimental)
 
-As you might (not) have noticed, *wenyan-lang* strives to be more readable (for ancient Chinese people). **Macros** provide syntactic sugars to bring the 文采 of your code to the next level.
+As you might (not) have noticed, *xuyan-lang* strives to be more readable (for ancient Chinese people). **Macros** provide syntactic sugars to bring the 文采 of your code to the next level.
 
-E.g. Now you can patch wenyan-lang's notorius print function like so:
+E.g. Now you can patch xuyan-lang's notorius print function like so:
 
 ```
 或云「「書「甲」焉」」。

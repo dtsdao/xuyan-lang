@@ -5,7 +5,7 @@ const fs = require("fs-extra");
 
 const root = path.resolve(__dirname, "..");
 const distRoot = path.resolve(__dirname, "../dist");
-const npmOrganization = "@wenyanlang";
+const npmOrganization = "@xuyanlang";
 
 const packages = ["cli", "core", "render", "runtime"];
 
@@ -48,7 +48,7 @@ async function MakePackageJSON() {
 
     if (package === "cli") {
       json.bin = {
-        wenyan: "./index.min.js"
+        xuyan: "./index.min.js"
       };
     }
 
