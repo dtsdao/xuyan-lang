@@ -5,3 +5,4 @@ build/xuyan-macos
 build/xuyan-win.exe
 temp
 dist
+/tools/calendar.html

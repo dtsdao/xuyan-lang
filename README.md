@@ -92,6 +92,10 @@ xuyan examples/helloworld.wy
 
 You can now translate JavaScript to xuyan-lang using the [xuyanizer](https://github.com/zxch3n/xuyanizer) by [zxch3n](https://github.com/zxch3n).
 
+### 3rd Party Compilers
+
+- [JVM compiler](https://github.com/MagicLu550/wenyan-lang_jvm) by [MagicLu550](https://github.com/MagicLu550)
+
 ### Text Editor Plugins
 
 - [Plugin for VSCode](https://github.com/antfu/xuyan-lang-vscode) by [antfu](https://github.com/antfu)
